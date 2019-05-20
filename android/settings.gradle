@@ -1,0 +1,14 @@
+rootProject.name = 'cat4'
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':react-native-fs'
+project(':react-native-fs').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fs/android')
+include ':react-native-local-resource'
+project(':react-native-local-resource').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-local-resource/android')
+include ':react-native-gesture-handler'
+project(':react-native-gesture-handler').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-gesture-handler/android')
+include ':react-native-tensorflow'
+project(':react-native-tensorflow').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-tensorflow/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+include ':app'
